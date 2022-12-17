@@ -1,5 +1,5 @@
 body {
-    font: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: rgba(0, 0, 0, 5);
     background: linear-gradient(to right, rgba(38, 33, 39, 0.849), rgb(34, 188, 199));
 }
@@ -20,8 +20,20 @@ ul {
     text-transform: uppercase;
 }
 
-#userinput {
+#userinput{
+    font-size: 0.83em;
     width: 30em;
+    font-family: 'Times New Roman', sans-serif;
+    padding: 1em 2em 1em 2em;
+}
+
+#enter {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1em 2em 1em 2em;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1.2em;
 }
 
 .done {

@@ -18,16 +18,6 @@ const addListAfterKeypress = ((event) => {
     } 
 })
 
-const createButton = (() => {
-    let buttonDelete = document.createElement('button');
-    buttonDelete.textContent = "Delete";
-    buttonDelete.classList.add("delete");
-    buttonDelete.onclick = function() {
-        buttonDelete.parentElement.remove();
-    }
-    return buttonDelete;
-})
-
 const createListElement = (() => {
     let li = document.createElement('li');
     li.appendChild(document.createTextNode(input.value));
@@ -47,3 +37,12 @@ ul.onclick = function(event) {
     event.target.classList.toggle('done');
 }
 
+const createButton = (() => {
+    let buttonDelete = document.createElement('button');
+    buttonDelete.textContent = "Delete";
+    buttonDelete.classList.add("delete");
+    buttonDelete.onclick = function() {
+        buttonDelete.parentElement.remove();
+    }
+    return buttonDelete;
+})
