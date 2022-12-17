@@ -1,3 +1,29 @@
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 5);
+    background: linear-gradient(to right, rgba(38, 33, 39, 0.849), rgb(34, 188, 199));
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    letter-spacing: .3em;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.container {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#userinput {
+    width: 30em;
+}
+
 .done {
     text-decoration: line-through;
 }
